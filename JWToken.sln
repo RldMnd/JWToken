@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWToken", "JWToken\JWToken.csproj", "{6164173E-AEBE-4AE9-95D0-737499878BAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWToken", "JWToken\JWToken.csproj", "{E0FA80FA-7E1D-441C-9839-1B6C8795C988}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6164173E-AEBE-4AE9-95D0-737499878BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6164173E-AEBE-4AE9-95D0-737499878BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6164173E-AEBE-4AE9-95D0-737499878BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6164173E-AEBE-4AE9-95D0-737499878BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0FA80FA-7E1D-441C-9839-1B6C8795C988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0FA80FA-7E1D-441C-9839-1B6C8795C988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0FA80FA-7E1D-441C-9839-1B6C8795C988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0FA80FA-7E1D-441C-9839-1B6C8795C988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {78B60EA2-CC4A-4FC4-840C-39B1ED1F5974}
+		SolutionGuid = {E7970B29-61C2-4852-9EFF-080E4BB30B3E}
 	EndGlobalSection
 EndGlobal
