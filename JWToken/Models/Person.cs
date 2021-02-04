@@ -10,5 +10,6 @@ namespace JWToken.Models
         public string Login { get; set; }
         public string Password { get; set; }
         public string Role { get; set; }
+        public string Dep { get; set; }
     }
 }

@@ -15,8 +15,8 @@ namespace JWToken.Controllers
     {
         List<Person> people = new List<Person>
         {
-            new Person {Login="admin@gmail.com", Password="12345", Role = "admin" },
-            new Person { Login="qwerty@gmail.com", Password="55555", Role = "user" }
+            new Person {Login="admin@gmail.com", Password="12345", Role = "admin", Dep = "Салон" },
+            new Person { Login="qwerty@gmail.com", Password="55555", Role = "user", Dep = "Салон 2" }
         };
 
         [HttpPost("/token")]
@@ -56,7 +56,8 @@ namespace JWToken.Controllers
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimsIdentity.DefaultNameClaimType, person.Login),
-                    new Claim(ClaimsIdentity.DefaultRoleClaimType, person.Role)
+                    new Claim(ClaimsIdentity.DefaultRoleClaimType, person.Role),
+                    new Claim(ClaimTypes.UserData, person.Dep)
                 };
                 ClaimsIdentity claimsIdentity =
                 new ClaimsIdentity(claims, "Token", ClaimsIdentity.DefaultNameClaimType,
